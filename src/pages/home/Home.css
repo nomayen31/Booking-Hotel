@@ -5,3 +5,11 @@
     align-items: center;
     grid:30px;
 }
+
+.homeTitle{
+    width: 1024px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}

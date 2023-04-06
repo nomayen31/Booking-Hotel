@@ -65,7 +65,7 @@ const Header = ({type}) => {
         <p className='headerDesc'>
           Find The Best Hotel's And Discover The Teal value of travel
         </p>
-        <button className='headerBtn'>Sign in / Register</button>
+        <div className='headerBtnDiv'><button className='headerBtn'>Sign in / Register</button></div>
         <div className='headerSearch'>
           <div className='headerSearchItem'>
             <FontAwesomeIcon icon={faBed} className='headerIcon'></FontAwesomeIcon>

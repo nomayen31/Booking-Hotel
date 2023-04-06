@@ -1,6 +1,6 @@
 .header {
-    background-color: #003580;
-    color: white;
+    background-color: #e8a856;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     position: relative;
@@ -28,11 +28,11 @@
     gap: 10px;
   }
   
-  .headerListItem.active {
-    border: 1px solid white;
+  /* .headerListItem.active {
+    border: 1px solid rgb(248, 248, 248);
     padding: 10px;
     border-radius: 20px;
-  }
+  } */
   
   .headerDesc {
     margin: 20px 0px;
@@ -50,14 +50,14 @@
   .headerSearch {
     height: 30px;
     background-color: rgb(255, 252, 252);
-    border: 3px solid #febb02;
+    border: 3px solid #ff6d6d;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 0px;
+    padding: 30px 0px;
     border-radius: 5px;
     position: absolute;
-    bottom: -25px;
+    bottom: -75px;
     width: 100%;
     max-width: 1024px;
   }

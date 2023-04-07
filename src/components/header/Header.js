@@ -59,13 +59,13 @@ const Header = ({type}) => {
         </div>
        { type !== "list" &&
         <>
-         <h1 className='headerTitle'>
+         <h1 className='headerTitle text-xl font-bold'>
           Find your next Destination
         </h1>
-        <p className='headerDesc'>
+        <p className='headerDesc text-lg font-bold '>
           Find The Best Hotel's And Discover The Teal value of travel
         </p>
-        <div className='headerBtnDiv'><button className='headerBtn'>Sign in / Register</button></div>
+        <div className='headerBtnDiv'><button className="btn btn-success">Sign in / Register</button></div>
         <div className='headerSearch'>
           <div className='headerSearchItem'>
             <FontAwesomeIcon icon={faBed} className='headerIcon'></FontAwesomeIcon>
@@ -155,7 +155,7 @@ const Header = ({type}) => {
             }
           </div>
           <div className='headerSearchItem'>
-            <button className='headerBtn'>Search</button>
+            <button className="btn btn-success">Search</button>
           </div>
         </div></>}
       </div>

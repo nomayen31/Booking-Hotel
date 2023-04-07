@@ -1,3 +1,4 @@
+
 .homeContainer{
     margin-top: 100px;
     display: flex;
@@ -9,6 +10,8 @@
 .homeTitle{
     width: 1024px;
     font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: center;
 
